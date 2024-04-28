@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 30, 30);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: black;
+    padding:25px 40px;
+    border-radius:10px;
+}
+
+.timer{
+   font-size: 50px;
+   font-weight: 600;
+}
+
+.btn{
+    margin-top:20px;
+    font-size: 20px;
+    border-radius:5px;
+    padding: 9px 15px;
+    margin-inline: 12px;
+    cursor:pointer;
+    border-color: white;
+    color:white;
+}
+
+button#startbtn:hover{
+    background-color:lightgreen ;
+}
+
+#startbtn{
+    background-color: green;
+}
+
+button#stopbtn:hover{
+    background-color:lightcoral ;
+}
+
+#stopbtn{
+    background-color: red;
+}
+button#resetbtn:hover{
+    background-color:lightblue ;
+}
+
+#resetbtn{
+    background-color: blue;
+}
